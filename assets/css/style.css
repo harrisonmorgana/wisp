@@ -555,7 +555,7 @@ section {
     border: 2px solid #fff;
 }
 .carousel .testimonial {
-    color: #0e2946;
+    color: white;
     position: relative;    
     background: #0e2946;
 	padding: 15px;
@@ -594,8 +594,7 @@ section {
 }
 .carousel .testimonial p::before {
 	content: "\201D";
-  	font-family: Arial,sans-serif;
-    color: #fff;
+    color: white;
     font-weight: bold;
     font-size: 68px;
     line-height: 70px;
