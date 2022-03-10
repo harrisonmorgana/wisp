@@ -112,20 +112,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 #header .logo {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
 }
 #header .logo a {
   color: #0e2946;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /**
@@ -146,10 +145,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #4c8cda;
   color: #fff;
 }
+@media (max-width: 1068px) {
+  .get-started-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+  #header .logo img {
+    max-height: 30px;
+  }
+}
 @media (max-width: 768px) {
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
+  }
+  #header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }
 
@@ -368,7 +385,18 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 100vw;
   min-height: auto;
 }
-
+@media (max-width: 2354px) {
+  #hero { 
+    height: 50vh;
+    width:100vw;
+  }
+}
+@media (max-width: 1200px) {
+  #hero { 
+    height: 40vh;
+    width:100vw;
+  }
+}
 @media (max-width: 992px) {
   #hero .container {
     padding-top: 62px;
@@ -422,7 +450,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -430,6 +457,17 @@ section {
   padding: 60px 0;
   overflow: hidden;
   position: relative;
+}
+
+#tech {
+  display: table;
+  margin: 0 5vw 0 0;
+  max-width: 100%;
+  background-image: url("../assets/img/main/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   width:100vw;
+height:auto;
 }
 
 .section-bg {
@@ -495,6 +533,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+  text-align: center;
 }
 .about .content ul {
   list-style: none;
@@ -532,6 +571,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#testimonials h3{
+
+}
+
 .carousel {
 	margin: 50px auto;
 }
@@ -607,6 +650,7 @@ section {
 }
 .carousel .overview .details {
 	padding: 5px 0 8px;
+  color: #3b73b9;
 }
 .carousel .overview b {
 	text-transform: uppercase;
@@ -706,6 +750,19 @@ p {
   line-height: 26px;
   color: #666;
   margin-bottom: 15px;
+}
+/*--------------------------------------------------------------
+# Tech
+--------------------------------------------------------------*/
+
+#tech .container {
+  width: 90vw;
+}
+
+#tech h3 {
+  color: #fff;
+  margin: auto;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1131,7 +1188,7 @@ p {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: #0e2946;
   color: #fff;
   text-decoration: none;
 }
