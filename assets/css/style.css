@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-#hero .btn-get-started {
+#hero .started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -428,8 +428,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fff;
   color: #fff;
 }
-#hero .btn-get-started:hover {
-  background: #0e2946;
+#hero .started:hover {
+  background: #3b73b9;
   border: 2px solid #0e2946;
 }
 @media (min-width: 1024px) {
@@ -459,17 +459,6 @@ section {
   position: relative;
 }
 
-#tech {
-  display: table;
-  margin: 0 5vw 0 0;
-  max-width: 100%;
-  background-image: url("../assets/img/main/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-   width:100vw;
-height:auto;
-}
-
 .section-bg {
   background-color: #f6f7f6;
 }
@@ -496,6 +485,18 @@ height:auto;
   background: #9ae1af;
   margin: 4px 10px;
 }
+.sub-title {
+  font-size: 11px;
+  font-weight: 300;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
 .section-title p {
   margin: 0;
   margin: 0;
@@ -505,7 +506,10 @@ height:auto;
   font-family: "Poppins", sans-serif;
   color: #37423b;
 }
-
+.container { 
+  width: 80vw;
+  height:auto;
+}
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
@@ -532,7 +536,7 @@ height:auto;
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 40px;
   text-align: center;
 }
 .about .content ul {
@@ -571,12 +575,16 @@ height:auto;
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-#testimonials h3{
 
-}
 
 .carousel {
 	margin: 50px auto;
+}
+
+.carousel h3 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
 }
 .carousel .carousel-item {
 	color: #fff;
@@ -700,6 +708,12 @@ height:auto;
 .mb-60 {
   margin-bottom: 60px;
 }
+
+.services .container h3 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
 .services-inner {
   border: 2px solid #0e2946;
   margin-left: 35px;
@@ -761,167 +775,10 @@ p {
 
 #tech h3 {
   color: #fff;
-  margin: auto;
-  text-align: center;
-}
-
-/*--------------------------------------------------------------
-# Events
---------------------------------------------------------------*/
-.events .card {
-  border: 0;
-  padding: 0 30px;
-  margin-bottom: 60px;
-  position: relative;
-}
-.events .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  overflow: hidden;
-  z-index: 9;
-  border-radius: 0;
-}
-.events .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-.events .card-body {
-  z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
-  padding: 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  transition: 0.3s;
-}
-.events .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.events .card-title a {
-  color: #37423b;
-  transition: 0.3s;
-}
-.events .card-text {
-  color: #5e5e5e;
-}
-.events .read-more a {
-  color: #777777;
-  text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
-  transition: 0.3s;
-}
-.events .read-more a:hover {
-  color: #0e2946;
-}
-.events .card:hover img {
-  transform: scale(1.1);
-}
-.events .card:hover .card-body {
-  border-color: #0e2946;
-}
-.events .card:hover .card-body .card-title a {
-  color: #0e2946;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
+  font-size: 40px;
   text-align: center;
-  border: 1px solid #eef0ef;
-  border-radius: 0;
-  position: relative;
-  overflow: hidden;
-}
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-.pricing h4 {
-  font-size: 36px;
-  color: #0e2946;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-.pricing ul li {
-  padding-bottom: 16px;
-}
-.pricing ul i {
-  color: #0e2946;
-  font-size: 18px;
-  padding-right: 4px;
-}
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-.pricing .btn-buy {
-  background: #0e2946;
-  display: inline-block;
-  padding: 8px 35px;
-  border-radius: 50px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-.pricing .btn-buy:hover {
-  background: #3ac162;
-}
-.pricing .featured h3 {
-  color: #fff;
-  background: #0e2946;
-}
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #0e2946;
-  color: #fff;
-}
+  }
 
 /*--------------------------------------------------------------
 # Contact
@@ -1060,12 +917,18 @@ p {
   font-size: 14px;
   background: #eef0ef;
 }
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #f9faf9;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+}
+
+.footer-contact img{
+  width: 10vw;
+  height: auto;
 }
 #footer .footer-top .footer-contact h4 {
   font-size: 22px;
@@ -1123,45 +986,7 @@ p {
 #footer .footer-newsletter {
   font-size: 15px;
 }
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #444444;
-  position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #e0e5e2;
-}
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #0e2946;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #3ac162;
-}
+
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -1192,3 +1017,27 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
+
+/*--------------------------------------------------------------
+# Modals
+--------------------------------------------------------------*/
+.modal-header{
+  background-image: url("/assets/img/Main/background.jpg");
+  color: #fff;
+text-align: center;
+  }
+  .modal-center{
+      display: block;
+      margin-left: auto;
+      margin-top: 10vh;
+      margin-right: auto;
+      width: 40%;
+      min-width: 350px;
+      min-height: 400px;
+  }
+  .modal-title {
+      color: #fff;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
