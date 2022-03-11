@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0e2946;
 }
 #header .logo img {
-  max-height: 50px;
+  max-height: 70px;
 }
 
 /**
@@ -785,15 +785,6 @@ p {
 --------------------------------------------------------------*/
 :root {
   --mainColor: #0e2946;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-body {
-  background-color: #989898;
 }
 table {
   width: 90%;
