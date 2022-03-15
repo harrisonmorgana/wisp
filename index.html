@@ -28,6 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -37,37 +38,6 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/tech.css" rel="stylesheet">
 
-  <script>
-    window.pipedriveLeadboosterConfig = {
-      base: 'leadbooster-chat.pipedrive.com',
-      companyId: 10355226,
-      playbookUuid: '87308f40-23be-4d3d-aa6f-183b29162c2f',
-      version: 2
-    };
-    (function () {
-      var w = window;
-      if (w.LeadBooster) {
-        console.warn('LeadBooster already exists');
-      } else {
-        w.LeadBooster = {
-          q: [],
-          on: function (n, h) {
-            this.q.push({
-              t: 'o',
-              n: n,
-              h: h
-            });
-          },
-          trigger: function (n) {
-            this.q.push({
-              t: 't',
-              n: n
-            });
-          },
-        };
-      }
-    })();
-  </script>
   <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async>
   </script>
 
@@ -223,7 +193,9 @@
                 <div class="feature-box-1">
                   <a href="#migration" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/arrow.png">
+                      <span class="icons large material-icons">
+                        drive_file_move
+                        </span>
                     </div>
                     <div class="feature-content">
                       <h5>Migration</h5>
@@ -238,10 +210,12 @@
                 <div class="feature-box-1">
                   <a href="#consultancy" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/consultancy.png">
+                      <span class="icons large material-icons">
+                        call
+                        </span>
                     </div>
                     <div class="feature-content">
-                      <h5>consultancy</h5>
+                      <h5>Consultancy</h5>
                     </div>
                   </a>
                 </div>
@@ -252,7 +226,9 @@
                 <div class="feature-box-1">
                   <a href="#supp" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/support.png">
+                      <span class="icons large material-icons">
+                        support_agent
+                        </span>
                     </div>
                     <div class="feature-content">
                       <h5>Support</h5>
@@ -266,7 +242,9 @@
                 <div class="feature-box-1">
                   <a href="#partner" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/Migration.png">
+                      <span class="icons large material-icons">
+                        handshake
+                        </span>
                     </div>
                     <div class="feature-content">
                       <h5>Partnerships</h5>
@@ -280,7 +258,9 @@
                 <div class="feature-box-1">
                   <a href="#strategy" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/tick.png">
+                      <span class="icons large material-icons">
+                        moving
+                      </span>
                     </div>
                     <div class="feature-content">
                       <h5>Strategy</h5>
@@ -294,7 +274,9 @@
                 <div class="feature-box-1">
                   <a href="#managed" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services//deployments.png">
+                      <span class="icons large material-icons">
+                        manage_accounts
+                      </span>                        
                     </div>
                     <div class="feature-content">
                       <h5>Managed Services</h5>
@@ -308,7 +290,9 @@
                 <div class="feature-box-1">
                   <a href="#security" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/Security.png">
+                      <span class="icons large material-icons">
+                        lock
+                      </span>
                     </div>
                     <div class="feature-content">
                       <h5>Security</h5>
@@ -322,7 +306,9 @@
                 <div class="feature-box-1">
                   <a href="#projects" class="services-link" data-toggle="modal">
                     <div class="icon">
-                      <img class="icon" src="assets/img/services/Clock.png">
+                      <span class="icons large material-icons">
+                        extension
+                      </span>
                     </div>
                     <div class="feature-content">
                       <h5>Projects</h5>
@@ -337,38 +323,26 @@
     <!--         End Features Section           -->
 
     <!-- ======= Scrolling Partnerships ======= -->
-    
-        <div class="container">
-         <div class="video-container">
+        <div class="marquee">
           <h3 style="text-align: center;">Our Partners</h3>
-            <div class="marquee3k-position">
-               <div class="marquee3k" data-speed=".75">
-                  <h1><img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
-                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
-                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
-                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
-                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp">
-                    <img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
-                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
-                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
-                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
-                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp">
-                    <img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
-                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
-                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
-                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
-                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp"></h1>
-               </div>
-   
+          <div style="width: 10000000000px">
+            <div class="marqueeContent">
+              <h1><img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
+                <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
+                <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
+                <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
+                <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp"></h1>
             </div>
-         </div>
+    
+            <div class="marqueeContent">
+              <h1><img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
+                <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
+                <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
+                <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
+                <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp"></h1>
+            </div>
+          </div>
         </div>
-      <script>
-         jQuery(document).ready(function() {
-            Marquee3k.init();
-            jQuery('.marquee3k').css('opacity', 1);
-         });
-      </script>
     
 
     <!-- ======= Technologies Section  =======  -->
