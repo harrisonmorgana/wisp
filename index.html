@@ -27,76 +27,101 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/tech.css" rel="stylesheet">
 
-<script> 
-window.pipedriveLeadboosterConfig = {
-  base: 'leadbooster-chat.pipedrive.com',
-  companyId: 10355226,
-  playbookUuid: '87308f40-23be-4d3d-aa6f-183b29162c2f',
-  version: 2};
-  (function () 
-  {var w = window;
-  if (w.LeadBooster)
-   {console.warn('LeadBooster already exists');}
-    else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();</script><script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async>
-    </script>
+  <script>
+    window.pipedriveLeadboosterConfig = {
+      base: 'leadbooster-chat.pipedrive.com',
+      companyId: 10355226,
+      playbookUuid: '87308f40-23be-4d3d-aa6f-183b29162c2f',
+      version: 2
+    };
+    (function () {
+      var w = window;
+      if (w.LeadBooster) {
+        console.warn('LeadBooster already exists');
+      } else {
+        w.LeadBooster = {
+          q: [],
+          on: function (n, h) {
+            this.q.push({
+              t: 'o',
+              n: n,
+              h: h
+            });
+          },
+          trigger: function (n) {
+            this.q.push({
+              t: 't',
+              n: n
+            });
+          },
+        };
+      }
+    })();
+  </script>
+  <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async>
+  </script>
 
 </head>
 
 <body id="page-top">
 
   <!-- =======        Header            ======= -->
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center">
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/Main/white.png"></a></h1>
-        
-          <nav id="navbar" class="navbar order-last order-lg-0">
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/Main/white.png"></a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="#page-top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <!--<li><a href="#tech">Technologies</a></li>-->
+          <li><a href="blog.html">Blog</a></li>
+
+          <li class="dropdown"><a href="#"><span>Support</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#page-top">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#tech">Technologies</a></li>
-              <li><a href="blog.html">Blog</a></li>
-
-              <li class="dropdown"><a href="#"><span>Support</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="https://support.wispit.net/" target="_blank">Service Desk </a></li>
-                </ul>
-              </li>
+              <li><a href="https://support.wispit.net/" target="_blank">Service Desk </a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
-        <a href="contact.html" class="get-started-btn">Contact</a>
+      <a href="contact.html" class="get-started-btn">Free Consultation</a>
 
-      </div>
-    </header>
+    </div>
+  </header>
   <!--           End Header                     -->
 
   <!-- =======        Hero Section      ======= -->
-    <section id="hero" class="d-flex justify-content-center align-items-center">
-      <video autoplay muted loop id="myVideo">
-        <source src="assets/video/office.mp4" type="video/mp4">
-      </video>
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/video/office.mp4" type="video/mp4">
+    </video>
 
-      <div class="content container position-relative" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Enjoy an Effortless and Responsive IT Experience</h1>
-        <h2>with a Wisp Partnership.
-        </h2>
-        <a href="contact.html" class="started">Contact Us</a>
-      </div>
+    <div class="content container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Reliable IT Solutions </h1>
+      <h2>Tailored to your business. 
+      </h2>
+      <a href='https://outlook.office365.com/owa/calendar/WispWebsiteMeetingBooking@wispit.co.uk/bookings/'
+        class="started" target="_blank">Trial Us Today</a>
+    </div>
 
-    </section>
-      <!--         End Hero                       -->
+  </section>
+  <!--         End Hero                       -->
 
-    <main id="main">
+  <main id="main">
 
     <!-- =======      About Section     ======= -->
     <section id="about" class="about">
@@ -107,13 +132,13 @@ window.pipedriveLeadboosterConfig = {
             <img src="assets/img/Main/office.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>About Us</h3>
-            <p class="fst-italic">
-              At Wisp, we excel in designing bespoke solutions to meet a wide range of requirements.
-            </p>
-            <p>
-              Whether you require assistance with a design for your local IT team, or need an end-to-end managed
-              service, you can rest assured that Wisp will deliver quality consultations and builds to suit your needs.
+            <h3>What we Do.</h3>
+            <p style="text-align: justify;">We understand that IT can create more issues than it fixes, bringing firms
+              unwanted distractions and headaches. `At Wisp, our focus is to keep IT simple
+              and provide our clients with a reliable and satisfying IT experience.</p>
+            <p style="text-align: justify;">Our Team works with our clients to build IT systems that break less and do more.
+              This allows your employees to focus on whats important and spend less time on the
+              phone to tech support.
             </p>
             <a href="about.html" class="get-started-btn">More About Us</a>
           </div>
@@ -121,14 +146,13 @@ window.pipedriveLeadboosterConfig = {
       </div>
     </section>
     <!--         End About Section              -->
-
     <!-- ======= Testimonials Section   ======= -->
     <section id="testimonials" class="testimonials" style="background-color: #f2f2f2;">
-      <div class="container-lg">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <h3 style="text-align: center;">Customer <b>Testimonials</b></h3>
+              <h3 style="text-align: center;">Customer Testimonials</h3>
               <!-- Carousel indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -186,151 +210,169 @@ window.pipedriveLeadboosterConfig = {
     </section>
     <!--         End Testimonial Secton         -->
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <section class="section services-section" id="services">
-        <div class="container-fluid">
-          <h3 style="text-align: center;">Services</h3>
-            <p class="sub-title">select a service to learn more<p>
+      <div class="container-fluid">
+        <h3 style="text-align: center;">Services</h3>
+        <p class="sub-title">select a service to learn more<p>
             <div class="row">
             </div>
             <div class="row">
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box-1">
-                      <a href="#migration" class="services-link" data-toggle="modal">
-                        <div class="icon">
-                            <img class ="icon" src="assets/img/services/arrow.png">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Migration</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
-                        </div>
-                      </a>
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#migration" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/arrow.png">
                     </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box-1">
-                      <a href="#consultancy" class="services-link" data-toggle="modal">
-                        <div class="icon">
-                          <img class ="icon" src="assets/img/services/consultancy.png">
-                        </div>
-                        <div class="feature-content">
-                            <h5>consultancy</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
-                        </div>
-                      </a>
+                    <div class="feature-content">
+                      <h5>Migration</h5>
+                      <p></p>
                     </div>
+                  </a>
                 </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#supp" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services/support.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Support</h5>
-                          <p>We porvide support, strictly IT support, Not emotional. </p>
-                      </div>
-                    </a>
-                  </div>
               </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#partner" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services/Migration.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Partnerships</h5>
-                          <p>Partnerships, not parsnips</p>
-                      </div>
-                    </a>
-                  </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#consultancy" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/consultancy.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>consultancy</h5>
+                    </div>
+                  </a>
+                </div>
               </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#strategy" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services/tick.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Strategy</h5>
-                          <p>Not just in chess</p>
-                      </div>
-                    </a>
-                  </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#supp" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/support.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Support</h5>
+                    </div>
+                  </a>
+                </div>
               </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#managed" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services//deployments.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Managed Services</h5>
-                          <p>We will manage your service.</p>
-                      </div>
-                    </a>
-                  </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#partner" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/Migration.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Partnerships</h5>
+                    </div>
+                  </a>
+                </div>
               </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#security" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services/Security.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Security</h5>
-                          <p>Feel secure with us</p>
-                      </div>
-                    </a>
-                  </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#strategy" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/tick.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Strategy</h5>
+                    </div>
+                  </a>
+                </div>
               </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-3">
-                  <div class="feature-box-1">
-                    <a href="#projects" class="services-link" data-toggle="modal">
-                      <div class="icon">
-                        <img class ="icon" src="assets/img/services/Clock.png">
-                      </div>
-                      <div class="feature-content">
-                          <h5>Projects</h5>
-                          <p>Project</p>
-                      </div>
-                    </a>
-                  </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#managed" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services//deployments.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Managed Services</h5>
+                    </div>
+                  </a>
+                </div>
               </div>
-                <!-- / -->
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#security" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/Security.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Security</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- / -->
+              <!-- feaure box -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="feature-box-1">
+                  <a href="#projects" class="services-link" data-toggle="modal">
+                    <div class="icon">
+                      <img class="icon" src="assets/img/services/Clock.png">
+                    </div>
+                    <div class="feature-content">
+                      <h5>Projects</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- / -->
             </div>
-        </div>
+      </div>
     </section>
     <!--         End Features Section           -->
 
     <!-- ======= Scrolling Partnerships ======= -->
-    <marquee behavior="scroll" direction="left" scrollamount="10">
-      <img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
-      <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
-      <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
-      <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
-      <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp">
-    </marquee>
+    
+        <div class="container">
+         <div class="video-container">
+          <h3 style="text-align: center;">Our Partners</h3>
+            <div class="marquee3k-position">
+               <div class="marquee3k" data-speed=".75">
+                  <h1><img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
+                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
+                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
+                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
+                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp">
+                    <img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
+                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
+                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
+                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
+                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp">
+                    <img src="assets/img/partners/acronis.png" width="auto" height="100" alt="Acronis">
+                    <img src="assets/img/partners/google.png" width="auto" height="100" alt="google">
+                    <img src="assets/img/partners/microsoft.jpg" width="auto" height="100" alt="Microsoft">
+                    <img src="assets/img/partners/dell.png" width="auto" height="100" alt="Dell">
+                    <img src="assets/img/partners/kemp.png" width="auto" height="100" alt="kemp"></h1>
+               </div>
+   
+            </div>
+         </div>
+        </div>
+      <script>
+         jQuery(document).ready(function() {
+            Marquee3k.init();
+            jQuery('.marquee3k').css('opacity', 1);
+         });
+      </script>
+    
 
     <!-- ======= Technologies Section  =======  -->
-    <section id="tech" class="pb-4" style="background-image: url('/assets/img/Main/background.jpg'); width: 100vw;">
+    <!-- <section id="tech" class="pb-4" style="background-image: url('/assets/img/Main/background.jpg'); width: 100vw;">
       <div class="container-fluid">
         <h3>Technologies</h3>
         <br>
@@ -354,7 +396,7 @@ window.pipedriveLeadboosterConfig = {
                       <p class="card-text">Microsoft Azure, is a cloud computing service created by Microsoft for
                         building, testing, deploying, and managing applications and services through Microsoft-managed
                         data centers</p>
-                      <button class="btn btn-close"><a href="azure.html">See More</a></button>
+                      <button class="btn"><a href="azure.html">See More</a></button>
                     </div>
                   </div>
                 </div>
@@ -376,9 +418,8 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Office 365</h4>
-                      <p class="card-text">Microsoft 365 is a suite of apps that help you stay connected and get things
-                        done</p>
-                      <button class="btn btn-close"><a href="office.html"></a>See More</button>
+                      <p class="card-text">Utilising the incredible feature set of the Microsoft 365 platform, we enable businesses to be highly flexible, yet secure in their day to day working.</p>
+                      <button class="btn"><a href="office.html">See More</a></button>
                     </div>
                   </div>
                 </div>
@@ -400,10 +441,8 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Teamviewer</h4>
-                      <p class="card-text">This is basic card with image on top, title, description and button.This is
-                        basic card with image on top, title, description and button.This is basic card with image on
-                        top, title, description and button.</p>
-                      <button class="btn btn-close"><a href="teamviewer.html"></a>See More</button>
+                      <p class="card-text">Cloud-based platform with intuitive features to securely and remotely access, control and support any device, across platforms — from anywhere, anytime.</p>
+                      <button class="btn  "><a href="teamviewer.html"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -425,10 +464,8 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Bit Defender</h4>
-                      <p class="card-text">This is basic card with image on top, title, description and button.This is
-                        basic card with image on top, title, description and button.This is basic card with image on
-                        top, title, description and button.</p>
-                      <button class="btn btn-close"><a href="bitdefender.html"></a>See More</button>
+                      <p class="card-text">Bitdefender provides cybersecurity solutions with complete aunti-virus protection around the clock.</p>
+                      <button class="btn  "><a href="bitdefender.html"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -450,10 +487,8 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Microsoft Teams </h4>
-                      <p class="card-text">This is basic card with image on top, title, description and button.This is
-                        basic card with image on top, title, description and button.This is basic card with image on
-                        top, title, description and button.</p>
-                      <button class="btn btn-close"><a href="teams"></a>See More</button>
+                      <p class="card-text">Microsoft Teams is a persistent chat-based collaboration platform complete with document sharing, online meetings, and many more extremely useful features for business communications</p>
+                      <button class="btn  "><a href="teams"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -468,6 +503,7 @@ window.pipedriveLeadboosterConfig = {
                     <div class="card-body text-center">
                       <p><img class=" img-fluid" src="assets/img/tech/teramind.png" alt="Teramind"></p>
                       <h4 class="card-title">Teramind</h4>
+                    
                     </div>
                   </div>
                 </div>
@@ -475,7 +511,8 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Teramind</h4>
-                      <button class="btn btn-close"><a href="teramind.html"></a>See More</button>
+                      <p class="card-text">Teramind lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers.</p>
+                      <button class="btn  "><a href="teramind.html"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -497,8 +534,9 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Usecure</h4>
-                      <p class="card-text">We use this.</p>
-                      <button class="btn btn-close"><a href="usecure.html"></a>See More</button>
+                      <p class="card-text">Measure, reduce and monitor employee cyber risk through automated
+                        Human Risk Management (HRM) — the new class of user-focused security</p>
+                      <button class="btn"><a href="usecure.html"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -520,8 +558,9 @@ window.pipedriveLeadboosterConfig = {
                   <div class="card">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">N-Able</h4>
-                      <p class="card-text">We use this.</p>
-                      <button class="btn btn-close"><a href="nable.html"></a>See More</button>
+                      <p class="card-text">N‑able offers a full suite of cloud software to
+                        build or scale your IT services.</p>
+                      <button class="btn  "><a href="nable.html"></a>See More</button>
                     </div>
                   </div>
                 </div>
@@ -531,10 +570,9 @@ window.pipedriveLeadboosterConfig = {
 
         </div>
       </div>
-    </section>
+    </section> -->
     <!--         End Technologies Section       -->
 
-    </main><!-- End #main -->
 
     <!-- =======     Footer Section     ======= -->
     <footer id="footer">
@@ -545,8 +583,8 @@ window.pipedriveLeadboosterConfig = {
             <div class="col-lg-3 col-md-6 footer-contact">
               <img src="assets/img/Main/blue.png">
               <p>Maple House<br>
-                  Queensway Business Park<br>
-                  TF1 7UL<br>
+                Queensway Business Park<br>
+                TF1 7UL<br>
                 <strong>Phone:</strong> 01952 908 708<br>
                 <strong>Email:</strong> info@wispit.net<br>
               </p>
@@ -587,9 +625,12 @@ window.pipedriveLeadboosterConfig = {
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
           <a href="https://twitter.com/wispitltd" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/Wisp-112644680497335/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/wispitltd/?hl=en" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/wisp-it-limited/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/Wisp-112644680497335/" class="facebook" target="_blank"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/wispitltd/?hl=en" class="instagram" target="_blank"><i
+              class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/wisp-it-limited/" class="linkedin" target="_blank"><i
+              class="bx bxl-linkedin"></i></a>
         </div>
       </div>
     </footer>
@@ -605,10 +646,13 @@ window.pipedriveLeadboosterConfig = {
             </button>
           </div>
           <div class="modal-body">
-            <h3>support</h3>
-          </div>	
+            <p>As part of our Managed Services Contracts, we offer all customers 24/7 Support as standard.</p>
+            <br>
+            <p>Wisp Engineers are able to quickly and effectively diagnose and resolve issues remotely, saving time and
+              money.</p>
+          </div>
           <div class="modal-footer">
-             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
           </div>
         </div>
@@ -626,9 +670,9 @@ window.pipedriveLeadboosterConfig = {
           </div>
           <div class="modal-body">
             <h3>Partnerships</h3>
-          </div>	
+          </div>
           <div class="modal-footer">
-             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
           </div>
         </div>
@@ -645,9 +689,9 @@ window.pipedriveLeadboosterConfig = {
           </div>
           <div class="modal-body">
             <h3>You shall be managed</h3>
-          </div>	
+          </div>
           <div class="modal-footer">
-             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
           </div>
         </div>
@@ -664,7 +708,7 @@ window.pipedriveLeadboosterConfig = {
           </div>
           <div class="modal-body">
             <h3>We will manage all of your IT needs </h3>
-          </div>	
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
@@ -682,8 +726,13 @@ window.pipedriveLeadboosterConfig = {
             </button>
           </div>
           <div class="modal-body">
-            <h3>You shall be migrated </h3>
-          </div>	
+            <p>If you are looking to migrate to a new Virtual Desktop or Email solution, Wisp have got it covered.</p>
+            <br>
+            <p>At Wisp, we specialise in helping businesses review their existing IT solutions verses the real world
+              requirements of the business.</p>
+            <br>
+            <p>Speak to us regarding your existing systems..</p>
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
@@ -701,8 +750,19 @@ window.pipedriveLeadboosterConfig = {
             </button>
           </div>
           <div class="modal-body">
-            <h3>Find security with Wisp</h3>
-          </div>	
+            <p>At Wisp, we believe in providing the very best service to our clients, while also making this as secure
+              as possible.</p>
+            <p>We use a combination of technologies to deliver a proactive service, including;</p>
+            <ul>
+              <li>Email/Web Security</li>
+              <li>Remote Monitoring and Management (RMM)</li>
+              <li>Best in class Anti-Virus</li>
+              <li>Multi-Factor Authentication Enforced</li>
+            </ul>
+            <p>In addition to this, we operate and have staff qualified in ITIL Framework, ensuring full Change Control
+              and Problem Management functions are in place to provide the most stable platforms for your IT Services.
+            </p>
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
@@ -720,8 +780,16 @@ window.pipedriveLeadboosterConfig = {
             </button>
           </div>
           <div class="modal-body">
-            <h3>WE will consult</h3>
-          </div>	
+            <p>A major challenge for businesses, is being able to select the most appropriate technology to meet the
+              ever increasing demand of customers.</p>
+            <br>
+            <p>With many years' experience in the industry, our consultants are perfectly placed to advise on how to get
+              the best out of your IT solutions.</p>
+            <br>
+            <p>Whether that is helping to manage your relationship with your existing provider, helping you look for a
+              new one or designing the long-term future of IT at your business, we are here to provide guidance and
+              enable you to achieve your business objectives.</p>
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
@@ -740,7 +808,7 @@ window.pipedriveLeadboosterConfig = {
           </div>
           <div class="modal-body">
             <h3>wooooo</h3>
-          </div>	
+          </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-lg"><a href="managed.html">More info</a></button>
@@ -750,63 +818,266 @@ window.pipedriveLeadboosterConfig = {
     </div>
 
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/marquee.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/marquee.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      var silder = $(".owl-carousel");
-      silder.owlCarousel({
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: false,
-        items: 1,
-        stagePadding: 20,
-        center: true,
-        nav: false,
-        margin: 50,
-        dots: true,
-        loop: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          480: {
-            items: 2
-          },
-          575: {
-            items: 2
-          },
-          768: {
-            items: 2
-          },
-          991: {
-            items: 3
-          },
-          1200: {
-            items: 4
+    <script>
+      $(document).ready(function () {
+        var silder = $(".owl-carousel");
+        silder.owlCarousel({
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: false,
+          items: 1,
+          stagePadding: 20,
+          center: true,
+          nav: false,
+          margin: 50,
+          dots: true,
+          loop: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            480: {
+              items: 2
+            },
+            575: {
+              items: 2
+            },
+            768: {
+              items: 2
+            },
+            991: {
+              items: 3
+            },
+            1200: {
+              items: 4
+            }
           }
-        }
+        });
       });
-    });
 
-    (function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('kn9Eq4ROZlkaRlvP'); 
-  </script>
+      window.pipedriveLeadboosterConfig = {
+        base: 'leadbooster-chat.pipedrive.com',
+        companyId: 10355226,
+        playbookUuid: 'd56628db-8530-4668-94a2-73e47fe61a6d',
+        version: 2
+      };
+      (function () {
+        var w = window;
+        if (w.LeadBooster) {
+          console.warn('LeadBooster already exists');
+        } else {
+          w.LeadBooster = {
+            q: [],
+            on: function (n, h) {
+              this.q.push({
+                t: 'o',
+                n: n,
+                h: h
+              });
+            },
+            trigger: function (n) {
+              this.q.push({
+                t: 't',
+                n: n
+              });
+            },
+          };
+        }
+      })();
+
+      
+;(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define([], factory);
+  } else if (typeof exports === 'object') {
+    module.exports = factory();
+  } else {
+    root.Marquee3k = factory();
+  }
+}(this, function() {
+  'use strict';
+
+  class Marquee3k {
+    constructor(element, options) {
+      this.element = element;
+      this.selector = options.selector;
+      this.speed = element.dataset.speed || 0.25;
+      this.pausable = element.dataset.pausable;
+      this.reverse = element.dataset.reverse;
+      this.paused = false;
+      this.parent = element.parentElement;
+      this.parentProps = this.parent.getBoundingClientRect();
+      this.content = element.children[0];
+      this.innerContent = this.content.innerHTML;
+      this.wrapStyles = '';
+      this.offset = 0;
+
+      this._setupWrapper();
+      this._setupContent();
+      this._setupEvents();
+
+      this.wrapper.appendChild(this.content);
+      this.element.appendChild(this.wrapper);
+    }
+
+    _setupWrapper() {
+      this.wrapper = document.createElement('div');
+      this.wrapper.classList.add('marquee3k__wrapper');
+      this.wrapper.style.whiteSpace = 'nowrap';
+    }
+
+    _setupContent() {
+      this.content.classList.add(`${this.selector}__copy`);
+      this.content.style.display = 'inline-block';
+      this.contentWidth = this.content.offsetWidth;
+
+      this.requiredReps = this.contentWidth > this.parentProps.width ? 2 : Math.ceil((this.parentProps.width - this.contentWidth) / this.contentWidth) + 1;
+
+      for (let i = 0; i < this.requiredReps; i++) {
+        this._createClone();
+      }
+
+      if (this.reverse) {
+        this.offset = this.contentWidth * -1;
+      }
+
+      this.element.classList.add('is-init');
+    }
+
+    _setupEvents() {
+      this.element.addEventListener('mouseenter', () => {
+        if (this.pausable) this.paused = true;
+      });
+
+      this.element.addEventListener('mouseleave', () => {
+        if (this.pausable) this.paused = false;
+      });
+    }
+
+    _createClone() {
+      const clone = this.content.cloneNode(true);
+      clone.style.display = 'inline-block';
+      clone.classList.add(`${this.selector}__copy`);
+      this.wrapper.appendChild(clone);
+    }
+
+    animate() {
+      if (!this.paused) {
+        const isScrolled = this.reverse ? this.offset < 0 : this.offset > this.contentWidth * -1;
+        const direction = this.reverse ? -1 : 1;
+        const reset = this.reverse ? this.contentWidth * -1 : 0;
+
+        if (isScrolled) this.offset -= this.speed * direction;
+        else this.offset = reset;
+
+        this.wrapper.style.whiteSpace = 'nowrap';
+        this.wrapper.style.transform = `translate(${this.offset}px, 0) translateZ(0)`;
+      }
+    }
+
+    _refresh() {
+      this.contentWidth = this.content.offsetWidth;
+    }
+
+    repopulate(difference, isLarger) {
+      this.contentWidth = this.content.offsetWidth;
+
+      if (isLarger) {
+        const amount = Math.ceil(difference / this.contentWidth) + 1;
+
+        for (let i = 0; i < amount; i++) {
+          this._createClone();
+        }
+      }
+    }
+
+    static refresh(index) {
+      MARQUEES[index]._refresh();
+    }
+
+    static refreshAll() {
+      for (let i = 0; i < MARQUEES.length; i++) {
+        MARQUEES[i]._refresh();
+      }
+    }
+
+    static init(options = { selector: 'marquee3k' }) {
+      window.MARQUEES = [];
+      const marquees = Array.from(document.querySelectorAll(`.${options.selector}`));
+      let previousWidth = window.innerWidth;
+      let timer;
+
+      for (let i = 0; i < marquees.length; i++) {
+        const marquee = marquees[i];
+        const instance = new Marquee3k(marquee, options);
+        MARQUEES.push(instance);
+      }
+
+      animate();
+
+      function animate() {
+        for (let i = 0; i < MARQUEES.length; i++) {
+          MARQUEES[i].animate();
+        }
+        window.requestAnimationFrame(animate);
+      }
+
+      window.addEventListener('resize', () => {
+        clearTimeout(timer);
+
+        timer = setTimeout(() => {
+          const isLarger = previousWidth < window.innerWidth;
+          const difference = window.innerWidth - previousWidth;
+
+          for (let i = 0; i < MARQUEES.length; i++) {
+            MARQUEES[i].repopulate(difference, isLarger);
+          }
+
+          previousWidth = this.innerWidth;
+        });
+      }, 250);
+    }
+  }
+
+  return Marquee3k;
+
+}));
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWQBDP79WK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+
+
+      gtag('config', 'G-GWQBDP79WK');
+    </script>
+    <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
+    </script>
 
 </body>
 
